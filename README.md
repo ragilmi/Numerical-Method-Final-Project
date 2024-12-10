@@ -54,7 +54,7 @@ This repository contains a Python implementation of polynomial regression for an
 ### Example Output
 **Regression Function**:
 ```plaintext
-f(x) = -4.3455 + 5.4321x - 0.5234x^2
+f(x) = 119.5846 + -42.5239x + 4.2393x^2
 ```
 
 **Error Summary**:
