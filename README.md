@@ -101,7 +101,7 @@ Here’s an example of what the output might look like when you run the script w
 ```plaintext
 Enter number of data points: 5
 Enter actual data values:
-Data point 1: 3.24
+Data point 1: 32.24
 Data point 2: 12.67
 Data point 3: 14.45
 Data point 4: 19.7
@@ -112,16 +112,16 @@ Regression Function: f(x) = 119.5846 + -42.5239x + 4.2393x^2
 
 Prediction Results:
 Month   Actual          Predicted       Absolute Error  Relative Error(%)
-3.00    3.24            30.17           26.93           831.07
+3.00    32.24           30.17           2.07            6.43
 4.00    12.67           17.32           4.65            36.68
 5.00    14.45           12.95           1.50            10.40
 6.00    19.70           17.06           2.64            13.42
 7.00    28.07           29.64           1.57            5.60
 
 Error Summary:
-Mean Absolute Error: 7.4587
-Mean Relative Error: 179.4347%
-Root Mean Square Error: 12.3156
+Mean Absolute Error: 2.4881
+Mean Relative Error: 14.5075%
+Root Mean Square Error: 2.7431
 ```
 
 ---
@@ -133,9 +133,7 @@ Here is the graph that illustrates the relationship between months and hotel occ
 1. **Data Points (Blue)**: Represent the actual occupation rates for the months of March (Month 3) to July (Month 7) in 2020. These points are plotted at \( (3, 32.24) \), \( (4, 12.67) \), \( (5, 14.45) \), \( (6, 19.70) \), and \( (7, 28.07) \).
 
 2. **Regression Curve (Red)**: This smooth curve represents the quadratic polynomial regression model fitted to the data. The equation of the curve is:
-   \[
    f(x) = 119.5846 + -42.5239x + 4.2393x^2
-   \]
 
 3. **Observations**:
    - The regression curve passes through all the data points, confirming a perfect fit since the provided data aligns exactly with the model.
