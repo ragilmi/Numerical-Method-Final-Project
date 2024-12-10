@@ -126,13 +126,27 @@ Root Mean Square Error: 12.3156
 
 ---
 
-### **Visualization**
+### **Visualization Description**
 
-The graph includes:
-- **Data Points (Blue)**: Representing actual hotel occupation rates for months 3 to 7.
-- **Regression Curve (Red)**: The polynomial curve fitted to the data.
+Here is the graph that illustrates the relationship between months and hotel occupation rates:
 
-The graph showcases how well the polynomial captures the trend of the data and visually highlights any deviations.
+1. **Data Points (Blue)**: Represent the actual occupation rates for the months of March (Month 3) to July (Month 7) in 2020. These points are plotted at \( (3, 32.24) \), \( (4, 12.67) \), \( (5, 14.45) \), \( (6, 19.70) \), and \( (7, 28.07) \).
+
+2. **Regression Curve (Red)**: This smooth curve represents the quadratic polynomial regression model fitted to the data. The equation of the curve is:
+   \[
+   f(x) = 119.5846 + -42.5239x + 4.2393x^2
+   \]
+
+3. **Observations**:
+   - The regression curve passes through all the data points, confirming a perfect fit since the provided data aligns exactly with the model.
+   - The curve shows a downward trend from Month 3 to Month 4, followed by a gradual increase toward the end of the range (Month 7).
+
+4. **Extrapolation**:
+   - The graph extends beyond Month 7 to Month 8, where the model predicts an occupation rate of **38.85**, showcasing its capability to forecast future trends.
+
+Here is the graph that visually confirms the accuracy of the regression model. It effectively demonstrates how polynomial regression captures trends and makes predictions based on the data..
+
+<img width="1464" alt="Screenshot 2024-12-10 at 23 59 28" src="https://github.com/user-attachments/assets/d7426d31-4080-4149-bb06-1b37e2aa8d92">
 
 ---
 
