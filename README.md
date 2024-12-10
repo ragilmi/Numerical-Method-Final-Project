@@ -93,11 +93,10 @@ months = [3, 4, 5, 6, 7]
 occupation_rates = [32.24, 12.67, 14.45, 19.7, 28.07]
 ```
 
-Here’s an example of what the output might look like when you run the script with the provided data:
-
 ---
 
-### **Console Output**
+## Console Output
+Here’s an example of what the output might look like when you run the script with the provided data:
 
 ```plaintext
 Enter number of data points: 5
