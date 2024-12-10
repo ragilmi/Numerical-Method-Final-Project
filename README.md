@@ -95,10 +95,5 @@ occupation_rates = [32.24, 12.67, 14.45, 19.7, 28.07]
 
 ---
 
-## License
-This project is licensed under the MIT License. Feel free to use, modify, and distribute as needed.
-
----
-
 ## Contributions
 Contributions and suggestions are welcome! Please open an issue or submit a pull request if you'd like to contribute.
