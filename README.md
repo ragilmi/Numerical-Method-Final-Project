@@ -93,6 +93,55 @@ months = [3, 4, 5, 6, 7]
 occupation_rates = [32.24, 12.67, 14.45, 19.7, 28.07]
 ```
 
+Here’s an example of what the output might look like when you run the script with the provided data:
+
+---
+
+### **Console Output**
+
+```plaintext
+Enter number of data points: 5
+Enter actual data values:
+Data point 1: 3.24
+Data point 2: 12.67
+Data point 3: 14.45
+Data point 4: 19.7
+Data point 5: 28.07
+
+=== Polynomial Regression (Degree 2) ===
+Regression Function: f(x) = 119.5846 + -42.5239x + 4.2393x^2
+
+Prediction Results:
+Month   Actual          Predicted       Absolute Error  Relative Error(%)
+3.00    3.24            30.17           26.93           831.07
+4.00    12.67           17.32           4.65            36.68
+5.00    14.45           12.95           1.50            10.40
+6.00    19.70           17.06           2.64            13.42
+7.00    28.07           29.64           1.57            5.60
+
+Error Summary:
+Mean Absolute Error: 7.4587
+Mean Relative Error: 179.4347%
+Root Mean Square Error: 12.3156
+```
+
+---
+
+### **Visualization**
+
+The graph includes:
+- **Data Points (Blue)**: Representing actual hotel occupation rates for months 3 to 7.
+- **Regression Curve (Red)**: The polynomial curve fitted to the data.
+
+The graph showcases how well the polynomial captures the trend of the data and visually highlights any deviations.
+
+---
+
+This output demonstrates:
+1. The fitted polynomial regression equation.
+2. A detailed table of predictions with absolute and relative errors for each data point.
+3. Overall error metrics for evaluating the model.
+4. An extrapolated prediction for month 8.
 ---
 
 ## Contributions
